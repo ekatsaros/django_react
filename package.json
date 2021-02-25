@@ -1,0 +1,40 @@
+{
+  "name": "django_react",
+  "version": "1.0.0",
+  "description": "django react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start:dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "django_react_base"
+  },
+  "keywords": [
+    "django",
+    "react"
+  ],
+  "author": "ekatsaros",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.13.0",
+    "webpack": "^5.22.0",
+    "webpack-bundle-tracker": "^0.4.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "merge": "^2.1.0",
+    "webpack-merge": "^5.7.3"
+  }
+}
